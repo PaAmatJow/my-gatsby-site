@@ -12,3 +12,10 @@ const config: GatsbyConfig = {
 }
 
 export default config
+
+module.exports = {
+	plugins: [
+		'gatsby-plugin-postcss',
+		// ...
+	],
+};
